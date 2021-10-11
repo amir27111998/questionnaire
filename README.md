@@ -24,9 +24,10 @@ How to attempt this challenge:
 
 1) Create a new repo in your account and note the git url
 2) Clone this repo
-3) Solve the challenge
-4) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
-5) Push your solution to your repo
+3) Run `npm install`
+4) Solve the challenge
+5) Set your new repo as the origin: `git remote set-url origin ${your repo url}`
+6) Push your solution to your repo
 
 You must follow these steps for your solution to be accepted -- forks or other methods will not be considered.
 
