@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  height: 600px;
+  width: 70%;
+  margin-left: 15%;
+  text-align: left;
 }
 
 .App-logo {
@@ -30,4 +33,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.progress-container{
+  height: 20px;
+  width: 100%;
+}
+
+.progress-fill{
+  height: 20px;
+}
+
+.question-header{
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.question-section{
+  width: 90%;
+  padding: 30px;
+  font-size: larger;
+}
+
+
+.question-option-section{
+  padding: 30px 4px;
+}
+
+
+.question-option{
+  font-size: large;
+  text-align: center;
+  background-color: #e5e6e5;
+  height: 37px;
+  width: 250px;
+  margin-bottom: 2%;
+  border-radius: 11px;
+}
+
+#next{
+  font-size: large;
+  text-align: center;
+  background-color: #e5e6e5;
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 11px;
+}
+
+#percentage-progress{
+  width: 60%;
+  margin-left: 37px;
+  bottom: 30px;
+  border: 1px solid #000000;
+  position: absolute;
+  height: 40px;
+}
+
+#percentage-section-text{
+  width: 60%;
+  margin-left: 37px;
+  bottom: 80px;
+  font-size: large;
+  font-weight: 500;
+  position: absolute;
+}
+
+.percentage-progress-fill{
+  display: inline-block;
+  height: 40px;
+}
+
+.selected{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.disabled-correct-answer{
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.disabled
+{
+  cursor: not-allowed;
+  pointer-events: none;
+
+  /*Button disabled - CSS color class*/
+  color: #c0c0c0;
+  background-color: #ffffff;
 }
